@@ -16,8 +16,8 @@ const Index = () => {
           <Button leftIcon={<Icon as={FaBriefcase} />} colorScheme="teal" variant="solid" size="lg">
             View Job Listings
           </Button>
-          <Button as={RouterLink} to="/post-job" leftIcon={<Icon as={FaPlus} />} colorScheme="teal" variant="outline" size="lg">
-            Post a Job
+          <Button as={RouterLink} to="/apply-job" leftIcon={<Icon as={FaPlus} />} colorScheme="teal" variant="outline" size="lg">
+            Apply for a Job
           </Button>
         </HStack>
       </VStack>
